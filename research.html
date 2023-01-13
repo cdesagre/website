@@ -52,6 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
+    <link rel="prev" title="Content with notebooks" href="notebooks.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -107,11 +109,11 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    Welcome to my personal website
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="markdown.html">
    Markdown Files
@@ -120,6 +122,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="notebooks.html">
    Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Research
   </a>
  </li>
  <li class="toctree-l1">
@@ -178,6 +185,35 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/research.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -282,12 +318,36 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#publications">
+   Publications
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -299,6 +359,19 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#publications">
+   Publications
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -308,14 +381,21 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="research">
 <h1>Research<a class="headerlink" href="#research" title="Permalink to this headline">#</a></h1>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">yfinance</span> <span class="k">as</span> <span class="nn">yf</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>Need data to conduct research</p>
+<section id="publications">
+<h2>Publications<a class="headerlink" href="#publications" title="Permalink to this headline">#</a></h2>
+<p>Christophe Desagre, Paolo Mazza &amp; Mikael Petitjean (2022) Crypto market dynamics in stressful conditions, Applied Economics, <a class="reference external" href="https://doi.org/10.1080/00036846.2022.2108754">Link to paper</a></p>
+<blockquote>
+<div><p><em>Understanding market liquidity and trading dynamics in one of the most innovative and volatile markets in the world, is crucial from the standpoint of both regulators and investors. In contrast to stocks, very little is known about the functioning of cryptos around extreme returns (ERs). Using high-frequency order-book and trade data for the 8 most widespread cryptos on 16 trading platforms over three years, we examine the contemporaneous and lagged influence of trading activity and liquidity on the occurrence of extreme returns (ERs) in a logistic regression framework adapted to rare events. Despite its huge volatility, we show that the trading and liquidity dynamics on the crypto market around ERs is not orthogonal to what traditional markets experience in stressful conditions. The number of trades is a particularly robust driver to explain the occurrence of ERs, followed by the relative spread. The same drivers are identified for traditional markets.</em></p>
+</div></blockquote>
+<p>Desagre, C., D’Hondt, C., &amp; Petitjean, M. (2022). The rise of fast trading: Curse or blessing for liquidity?. Finance <a class="reference external" href="https://doi.org/10.3917/fina.pr.i">Link to paper</a></p>
+<blockquote>
+<div><p><em>We study how market liquidity on Euronext has evolved with the rise of fast trading. We identify fast traders by directly measuring message traffic and the lifetime of orders for every individual market member on Euronext using their identification codes. We observe an overall improvement in terms of liquidity between 2002 and 2006. However, the most exposed stocks to fast trading exhibit the weakest increase in liquidity and lose the liquidity advantage they had before the rise of fast trading.</em></p>
+</div></blockquote>
+<p>Desagre, C., &amp; D’Hondt, C. (2021). Googlization and retail trading activity. Journal of Behavioral and Experimental Finance, 29, 100453. <a class="reference external" href="https://doi.org/10.1016/j.jbef.2020.100453">Link to paper</a></p>
+<blockquote>
+<div><p><em>A large body of literature documents a positive relationship between the Google Search Volume Index (SVI) and market returns or volumes. Such findings are consistent with a buying pressure due to increased attention. Unlike most of the studies that use market data, we use the trading accounts for a sample of retail investors. The advantage is twofold; we are able to disentangle purchases from sales, and our results are not biased by any institutional trading. We find that the relationship between the SVI and retail trading activity is positive but not stronger for purchases than for sales. We also demonstrate evidence of a bidirectional causality between attention and trading activity, though contemporaneous effects predominate. Our results are robust to controls based on sociodemographics or subjective investor characteristics, as well as various specifications of the SVI and different measures of trading activity.</em></p>
+</div></blockquote>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -345,6 +425,20 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="notebooks.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Content with notebooks</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="markdown-notebooks.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Notebooks with MyST Markdown</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             </footer>
         </div>
