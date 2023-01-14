@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Markdown Files &#8212; Christophe Desagre</title>
+    <title>Communications &#8212; Homepage</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Content with notebooks" href="notebooks.html" />
-    <link rel="prev" title="Welcome to my personal website" href="intro.html" />
+    <link rel="next" title="Une finance plus digitale" href="communications/finance_digitale.html" />
+    <link rel="prev" title="Googlization and retail trading activity" href="research/desagre2021googlization.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -97,7 +97,7 @@ const thebe_selector_output = ".output, .cell_output"
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">Christophe Desagre</h1>
+      <h1 class="site-logo" id="site-title">Homepage</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -109,30 +109,64 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to my personal website
+                    About
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Markdown Files
+ <li class="toctree-l1">
+  <a class="reference internal" href="teaching.html">
+   Teaching
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="notebooks.html">
-   Content with notebooks
-  </a>
- </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="research.html">
    Research
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="research/desagre2022crypto.html">
+     Crypto market dynamics in stressful conditions
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="research/desagre2022rise.html">
+     The rise of fast trading: Curse or blessing for liquidity?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="research/desagre2021googlization.html">
+     Googlization and retail trading activity
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="markdown-notebooks.html">
-   Notebooks with MyST Markdown
+ <li class="toctree-l1 current active has-children">
+  <a class="current reference internal" href="#">
+   Communications
   </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="communications/finance_digitale.html">
+     Une finance plus digitale
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="communications/googlization.html">
+     La googlization en finance
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -185,6 +219,35 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/cdesagre/website/gh-pages?urlpath=tree/docs/communications.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -207,7 +270,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/markdown.md"
+        <a href="_sources/communications.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -218,7 +281,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -267,23 +330,8 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-myst">
-   What is MyST?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sample-roles-and-directives">
-   Sample Roles and Directives
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#citations">
-   Citations
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#learn-more">
-   Learn more
+  <a class="reference internal nav-link" href="#press-articles">
+   Press articles
   </a>
  </li>
 </ul>
@@ -295,7 +343,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Markdown Files</h1>
+                <h1>Communications</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -306,23 +354,8 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-myst">
-   What is MyST?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sample-roles-and-directives">
-   Sample Roles and Directives
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#citations">
-   Citations
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#learn-more">
-   Learn more
+  <a class="reference internal nav-link" href="#press-articles">
+   Press articles
   </a>
  </li>
 </ul>
@@ -335,59 +368,65 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="markdown-files">
-<h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Permalink to this headline">#</a></h1>
-<p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
-in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
-called <strong>MyST Markdown</strong>.
-This is a simple file to help you get started and show off some syntax.</p>
-<section id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Permalink to this headline">#</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
-with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
-in the Sphinx ecosystem.</p>
-<p>For more about MyST, see <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST Markdown Overview</a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="communications">
+<h1>Communications<a class="headerlink" href="#communications" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p><strong>2022:</strong></p>
+<ul>
+<li><p>ICHEC, Midi de la recherche (Brussels)</p></li>
+<li><p>ICHEC, Quaresmi seminar (Brussels)</p></li>
+</ul>
+</li>
+<li><p><strong>2020:</strong></p>
+<ul>
+<li><p>6th International Symposium in Computational Economics and Finance (Online)</p></li>
+</ul>
+</li>
+<li><p><strong>2019:</strong></p>
+<ul>
+<li><p>LFIN internal seminar (Mons)</p></li>
+<li><p>3rd European capital market workshop (Dublin)</p></li>
+<li><p>32nd Finance and banking conference (Sydney)</p></li>
+<li><p>New Zealand finance meeting (Auckland)</p></li>
+</ul>
+</li>
+<li><p><strong>2018:</strong></p>
+<ul>
+<li><p>35th AFFI conference (Paris)</p></li>
+<li><p>Belgian financial research forum (Brussels)</p></li>
+<li><p>Warsaw international economic meeting (Warsaw)</p></li>
+<li><p>Second European capital market workshop (London)</p></li>
+<li><p>Financial econometrics conference (Lancaster)</p></li>
+</ul>
+</li>
+<li><p><strong>2017:</strong></p>
+<ul>
+<li><p>Doctoral forum in management (Mons)</p></li>
+<li><p>3L workshop (Brussels)</p></li>
+</ul>
+</li>
+<li><p><strong>2016:</strong></p>
+<ul>
+<li><p>PhD workshop (Namur)</p></li>
+<li><p>3L workshop (Brussels)</p></li>
+<li><p>33rd AFFI conference (Liege)</p></li>
+</ul>
+</li>
+</ul>
+<section id="press-articles">
+<h2>Press articles<a class="headerlink" href="#press-articles" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Le bitcoin, une mine d’or digital! La Libre Eco, 08/02/2021 [<a class="reference external" href="https://www.lalibre.be/economie/decideurs-chroniqueurs/le-bitcoin-une-mine-d-or-digital-601c00587b50a652f79bd066">Article</a>]</p></li>
+<li><p>La bourse a vu rouge! La Libre Eco, 28/03/2020 [<a class="reference external" href="https://www.lalibre.be/economie/placements/2020/03/26/le-marche-boursier-belge-voit-rouge-en-un-mois-le-bel20-est-passe-de-4-198-points-a-2-528-points-GRSVV4FUVNFMBGP45MN7MIV6EY/">Article</a>]</p></li>
+<li><p>Le bitcoin, une vraie revolution?. La Libre Entreprise, 07/09/2019 [<a class="reference external" href="https://www.lalibre.be/economie/decideurs-chroniqueurs/2019/09/16/le-bitcoin-une-vraie-revolution-JMK4KCHA5ZAQ7DCNBMY2W64MLM/">Article</a>]</p></li>
+<li><p>La Googlization en finance. La Libre Entreprise, 04/07/2018 [<a class="reference internal" href="communications/googlization.html"><span class="doc std std-doc">Article</span></a>]</p></li>
+<li><p>Une finance plus digitale. La Libre Entreprise, 01/28/2017. [<a class="reference internal" href="communications/finance_digitale.html"><span class="doc std std-doc">Article</span></a>]</p></li>
+<li><p>La vitesse sur les marchés financiers : stop ou encore ? Regards économiques, 12/08/2016 (avec F. Laly et M. Petitjean)
+[<a class="reference external" href="https://www.regards-economiques.be/index.php?option=com_reco&amp;view=article&amp;cid=165https://www.regards-economiques.be/index.php?option=com_reco&amp;view=article&amp;cid=165">Article</a>]</p></li>
+</ul>
 </section>
-<section id="sample-roles-and-directives">
-<h2>Sample Roles and Directives<a class="headerlink" href="#sample-roles-and-directives" title="Permalink to this headline">#</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<p>Here is a “note” directive:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note</p>
+<div class="toctree-wrapper compound">
 </div>
-<p>It will be rendered in a special box when you build your book.</p>
-<p>Here is an inline directive to refer to a document: <a class="reference internal" href="markdown-notebooks.html"><span class="doc">Notebooks with MyST Markdown</span></a>.</p>
-</section>
-<section id="citations">
-<h2>Citations<a class="headerlink" href="#citations" title="Permalink to this headline">#</a></h2>
-<p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
-the following syntax: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> will render like
-this: <span id="id1">[<a class="reference internal" href="#id3" title="Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In International Conference on Cognitive Neuroscience. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.">HdHPK14</a>]</span>.</p>
-<p>Moreover, you can insert a bibliography into your page with this syntax:
-The <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> directive must be used for all the <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> roles to
-render properly.
-For example, if the references for your book are stored in <code class="docutils literal notranslate"><span class="pre">references.bib</span></code>,
-then the bibliography is inserted with:</p>
-<div class="docutils container" id="id2">
-<dl class="citation">
-<dt class="label" id="id3"><span class="brackets"><a class="fn-backref" href="#id1">HdHPK14</a></span></dt>
-<dd><p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
-</dd>
-</dl>
-</div>
-</section>
-<section id="learn-more">
-<h2>Learn more<a class="headerlink" href="#learn-more" title="Permalink to this headline">#</a></h2>
-<p>This is just a simple starter to get you started.
-You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -417,17 +456,17 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="research/desagre2021googlization.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Welcome to my personal website</p>
+            <p class="prev-next-title">Googlization and retail trading activity</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="notebooks.html" title="next page">
+    <a class='right-next' id="next-link" href="communications/finance_digitale.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Content with notebooks</p>
+        <p class="prev-next-title">Une finance plus digitale</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

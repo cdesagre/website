@@ -1,14 +1,10 @@
-# About
+# About 
 
 I am a Lecturer at ICHEC, *Brussels School of Management* and UCLouvain, *Louvain School of Management*. 
-
-- Finance
-- Python 
 
 My research focuses on market microstructure in equity and cryptocurrency markets, as well as behavioral finance.
 
 ## Education
-
 - PhD in Economics and Management Science (UCLouvain, 2020)
 - Master in Business Engineering (UCLouvain, 2015)
 
